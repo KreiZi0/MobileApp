@@ -1,8 +1,8 @@
 import { StyleSheet } from "react-native"
-
+import {colors} from '../../utils/colors'
 export const styles = StyleSheet.create({
     footerText: {
-        color: 'black',
+        color: colors.black,
         textAlign: 'center',
         fontSize: 16,
         fontWeight: 'bold'
