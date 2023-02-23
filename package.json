@@ -7,9 +7,13 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build:ios": "react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'"
   },
   "dependencies": {
+    "@react-native-google-signin/google-signin": "^9.0.2",
+    "@react-navigation/native-stack": "^6.9.10",
+    "metro": "^0.75.1",
     "react": "18.1.0",
     "react-native": "0.70.7"
   },
