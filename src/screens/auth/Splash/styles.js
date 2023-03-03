@@ -28,5 +28,12 @@ export const styles = StyleSheet.create({
     },
     TextAlign: {
         textAlign: "center"
-    }
+    },
+    footerText: {
+        fontWeight: 'bold',
+        color: colors.blue,
+        paddingVertical: 20,
+        paddingHorizontal: 8,
+        textAlign: 'center'
+    },
 })

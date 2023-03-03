@@ -2,7 +2,7 @@ import React from "react";
 import { Pressable, Image, Text, View } from "react-native";
 import {styles} from "./styles";
 
-const AutHeader = ({title, onBackPress}) => {
+const AuthHeader = ({title, onBackPress}) => {
     return (
         <View style={styles.container} >
             <Pressable hitSlop={20} onPress={onBackPress}>
@@ -13,4 +13,4 @@ const AutHeader = ({title, onBackPress}) => {
     )
 }
 
-export default AutHeader
+export default React.memo(AuthHeader)
